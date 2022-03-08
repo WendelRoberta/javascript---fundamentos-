@@ -23,17 +23,27 @@
 
 // console.log(area);
 
-const forma = 'quadrado';
-const altura = 5;
-const comprimento = 7;
-let area;
+// const forma = 'quadrado';
+// const altura = 5;
+// const comprimento = 7;
+// let area;
 
-if (forma === 'quadrado'){
-    area = altura * comprimento;
+// if (forma === 'quadrado'){
+//     area = altura * comprimento;
 
-} else {
-    area = (altura * comprimento) /2;
+// } else {
+//     area = (altura * comprimento) /2;
 
-}
+// }
 
-console.log(area);
+// console.log(area);
+
+//tipagem dinamica
+//untype
+// js é uma linguagem de programação de tipagem dinamica
+//
+
+let minhaVar = 567;
+
+minhaVar = 'texto';
+minhaVar = true;
